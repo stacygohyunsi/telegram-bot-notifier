@@ -10,7 +10,7 @@ This bot will be the one pushing you notifications on your environment.
 
 Start by searching for the `BotFather` in Telegram and start a chat by typing in `/newbot`.
 
-![Bot Father](https://pbs.twimg.com/media/C63YqFpWoAA6KeK.jpg | width=100)
+![Bot Father](https://pbs.twimg.com/media/C63YqFpWoAA6KeK.jpg){:width="50%"}
 
 The BotFather will guide you through the steps of setting up your own bot by giving it a name (or add a profile picture etc). Once done, you will be given a **HTTP API token** for your bot. 
 
