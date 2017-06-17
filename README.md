@@ -4,15 +4,15 @@ Telegram Bot Notifier allows you to be notified of certain changes within your e
 # Usage
 For more details on how to use it, look at the folder - example.
 
-**Steps:**
-
 ## 1. Set up a telegram bot
 
-This bot will be the one pushing you notifications on your environment. 
-![Bot Father](https://pbs.twimg.com/media/C63YqFpWoAA6KeK.jpg)
-IStart by searching for the `BotFather` in Telegram and start a chat by typing in `/newbot`.
+This bot will be the one pushing you notifications on your environment.
 
-The BotFather will guide you through the steps of setting up your own bot by giving it a name (or add a profile picture etc). Once done, you will be given a HTTP API token for your bot. 
+Start by searching for the `BotFather` in Telegram and start a chat by typing in `/newbot`.
+
+![Bot Father](https://pbs.twimg.com/media/C63YqFpWoAA6KeK.jpg)
+
+The BotFather will guide you through the steps of setting up your own bot by giving it a name (or add a profile picture etc). Once done, you will be given a **HTTP API token** for your bot. 
 
 ## 2. Find out your Telegram chat ID
 
@@ -29,6 +29,7 @@ Start your server and navigate to the port you are on with the endpoint `/getCha
 
 Then talk to your bot on Telegram. The bot should respond with `Your chat id is XXXXX`. 
 
+![Chat Id image](../images/telegram-chat1.png)
 
 ## 3. Make your bot send you notifications!
 Save your Chat Id in your configuration file as we will need the Id to send notifications. 
@@ -37,6 +38,8 @@ To send notifications, we simply call  `TelegramBotNotifier.notify.sendMessage(M
 ```
 TelegramBotNotifier.notify.sendMessage('Hello, I am being deployed to staging-environment', TelegramConfig.BOT_TOKEN, TelegramConfig.CHAT_ID);
 ```
+
+![Notification image](../images/telegram-chat2.png)
 
 
 
