@@ -1,3 +1,5 @@
+![Build Status on Travis](https://travis-ci.org/stacygohyunsi/telegram-bot-notifier.svg?branch=master)
+
 # Telegram-bot-notifier
 Telegram Bot Notifier allows you to be notified of certain changes within your environment through Telegram. It is a bot which can send you notifications/messages. I use this in my CI/CD pipeline to let me know which stage the build process is at.
 
