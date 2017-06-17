@@ -1,0 +1,17 @@
+{
+  "name": "telegram-bot-notifier-example",
+  "version": "0.0.1",
+  "description": "example of how to use telegram-bot-notifier",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "notify-deploy": "node ./.bin/notify-deploy.js"
+  },
+  "author": "Stacy Goh <stacy.gohys@gmail.com> (http://imstacy.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "node-telegram-bot-api": "^0.27.1"
+  }
+}
